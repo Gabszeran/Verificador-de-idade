@@ -1,0 +1,33 @@
+
+html {
+    font: 62.5%;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    background: rgb(236, 223, 167);
+}
+header {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.353);
+}
+section {
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.353);
+    }
+
+footer {
+    position: fixed;
+    bottom: 0; /*define a distância entre o elemento e a borda inferior da janela*/
+    width: 100%; /*p/ footer ter a largura total da janela*/
+    color: white;
+    text-align: center;
+    font-style: italic;
+    padding: 15px;
+}
